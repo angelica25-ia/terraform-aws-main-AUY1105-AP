@@ -19,7 +19,7 @@ module "compute" {
   subnet_id = module.networking.public_subnet_id
   vpc_id    = module.networking.vpc_id
 
-  key_name = var.key_name
+  key_name    = var.key_name
   environment = "dev"
 }
 
